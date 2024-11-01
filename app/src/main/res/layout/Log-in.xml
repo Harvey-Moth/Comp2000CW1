@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="224dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#E54E49"
+        android:contentDescription="HOME"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/imageButton9"
+        app:srcCompat="@drawable/_574480_200" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="109dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="AVATAR"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@tools:sample/avatars[0]" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="94dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="SETTINGS"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/settings_icon_1964x2048_8nigtrtt" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="BELL"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/belcon" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="94dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="CALENDER"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/calender" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="106dp"
+        android:layout_height="73dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
