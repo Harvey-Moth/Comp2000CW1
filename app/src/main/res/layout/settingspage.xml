@@ -8,6 +8,21 @@
     android:background="#C3C0C0"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="659dp"
+        android:text="Settings"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="411dp"
@@ -54,7 +69,7 @@
         android:id="@+id/imageButton9"
         android:layout_width="94dp"
         android:layout_height="71dp"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="#E54E49"
         android:contentDescription="SETTINGS"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,7 +95,7 @@
         android:id="@+id/imageButton2"
         android:layout_width="94dp"
         android:layout_height="71dp"
-        android:backgroundTint="#E54E49"
+        android:backgroundTint="#FFFFFF"
         android:contentDescription="CALENDER"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -96,146 +111,116 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="206dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="576dp"
+        android:text="Dark Mode"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="195dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="546dp"
+        android:text="Notifications"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="322dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="332dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greybox" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="148dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greybox" />
+
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="448dp"
+        android:text="Privacy Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginBottom="591dp"
-        android:text="Holiday Status"
-        android:textSize="24sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="284dp"
+        android:text="Notification active hours"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="182dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginBottom="522dp"
-        android:text="Approved"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="325dp"
-        android:layout_marginEnd="117dp"
-        android:layout_marginBottom="379dp"
-        android:text="Pending/Requested"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="174dp"
-        android:layout_marginTop="493dp"
-        android:layout_marginEnd="175dp"
-        android:layout_marginBottom="211dp"
-        android:text="Denied"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="322dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="219dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="438dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/greenbox" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="348dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="527dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="131dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/redbox" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="350dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="271dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/amberbox" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="149dp"
-        android:layout_marginBottom="480dp"
-        android:text="**/**/24 - **/**/24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="324dp"
-        android:text="**/**/24 - **/**/24"
+        android:layout_marginTop="578dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="226dp"
+        android:text="9:00am - 5:00pm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="542dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="170dp"
-        android:text="**/**/24 - **/**/24"
-        android:textColor="#000000"
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="387dp"
+        android:text="Location services"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
